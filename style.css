@@ -736,7 +736,6 @@ h3 {
 h1 {
     text-transform: uppercase;
     font-weight: 800;
-    text-shadow: black 0px 0px 20px;
     font-size: 40px;
 }
 
@@ -767,7 +766,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #364577c7;
+    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -793,17 +792,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #303030;
-    color: white!important;
-    border: 1px solid #F3976C;
-
+    background: #F3976C!important;
+    color: #000000!important;
+    transition: 0.3s;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C!important;
-    color: black!important;
-    border: 1px solid #303030;
-
+    background: #c27956!important;
+    transform: scale(1.1);
 }
 
 .ltc-white {
@@ -837,7 +833,6 @@ h4 {
 }
 .bg-banniere h2{
     color: white;
-    text-shadow: 2px 2px 5px black;
 }
 
 
